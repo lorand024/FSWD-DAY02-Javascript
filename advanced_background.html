@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>color rndm</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+	window.onload= randomize();
+
+
+
+	function randomize(){
+
+		R= parseInt(Math.random() * 255);
+		G= parseInt(Math.random() * 255);
+		B= parseInt(Math.random() * 255);
+		
+		
+		document.body.style.backgroundColor = "rgb("+R+","+G+","+B+")";
+
+	}
+
+</script>
+</body>
+</html>

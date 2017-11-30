@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>intermediate exercise</title>
+</head>
+<body>
+
+<!-- <a href="#" onclick="avgCalc(A, B, C)">Calculate Grades!</a> -->
+
+
+<script type="text/javascript">
+
+	var A= parseInt(prompt("Math",""));
+	var B= parseInt(prompt("Physis",""));
+	var C= parseInt(prompt("English",""));
+
+	if((A>0)&&(A<10) && (B>0)&&(B<10) && (C>0)&&(C<10)){
+		avgCalc(A, B, C);
+	}else{
+		document.write("try again");
+	}
+
+	function avgCalc(a, b ,c){
+		sum= a+b+c;
+		avg= sum/3;
+
+		document.write("Sum = "+ sum +"<br>");
+		document.write("Average = "+ avg);
+	}
+
+
+
+</script>
+</body>
+</html>

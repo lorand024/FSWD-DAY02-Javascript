@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>string uppercase</title>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+
+	var A= prompt("put string", "here");
+	up(A);
+
+	function up(string){
+		char1 = string.charAt(0);
+		char1 = char1.toUpperCase();
+
+		newstring= char1 + string.substring(1);
+		document.write(newstring);
+	}
+
+
+
+</script>
+</body>
+</html>
