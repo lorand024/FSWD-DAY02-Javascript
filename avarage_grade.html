@@ -1,0 +1,48 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+	<title>Avarage Grade</title>
+</head>
+<body>
+
+
+
+<script>
+
+
+
+
+
+var math = parseInt (prompt("Math",""));
+var physics = parseInt (prompt("Physics",""));
+var english = parseInt (prompt("English",""));
+
+if((math>0)&&(math<10)&&(physics>0)&&(physics<10)&&(english>0)&&(english<10)){
+	avgGrade (math, physics, english)
+}else {
+	document.write ("try again")
+}
+
+
+
+
+function avgGrade (math, physics, english){
+	sum = math + physics + english;
+	avg = sum/3;
+
+	document.write ("sum = " + sum + "<br>");
+	document.write ("avg = " + avg);
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
