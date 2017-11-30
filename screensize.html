@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p id="dimensions"></p>
+<script>
+
+window.onresize = displayWindowSize;
+window.onload = displayWindowSize;
+
+function displayWindowSize(){
+	myWidth = window.innerWidth;
+	myHeight = window.innerHeight;
+
+	document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
+};
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
